@@ -1,0 +1,231 @@
+/*
+div {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ugly {
+    
+    background-color: orange;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Fontdiner Swanky', cursive;
+    
+}
+
+.mo_ugly {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Finger Paint', cursive;
+    
+}
+body {
+    
+    background-color: lightgreen;
+}
+#inside {
+    background-color: #ff7832;
+    font-size: +50px;
+}
+*/
+
+
+img {
+    display: flex;
+    border-radius: 50%;
+}
+
+.smaller {
+    height: 200px;
+    width: 200px;
+}
+/* comment      */
+.clip-ellipes {
+    clip-path: ellipse(30px 20px at 35px 15px);
+    
+    
+}
+#inside {
+    display: flex;
+    justify-content: space-around; 
+    
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+    height: 250px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+row {
+    width: 100%;
+}
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+
+
+
+#wrapper2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*Layout*/
+
+html {
+
+  height: 100%;
+}
+
+body {
+
+  /*Layout*/
+
+  background: #39957B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #39957B, #92D5C2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #39957B, #92D5C2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #39957B, #92D5C2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #39957B, #92D5C2); /* Standard syntax */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+
+  margin-left: 1em;
+}
+
+button {
+
+  /*Box model*/
+
+  background-color: #eee;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #2B705D;
+
+  /*Typography*/
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125em;
+  font-weight: 600;
+
+}
+
+h1, h2 {
+
+  /*Layout*/
+
+  margin-bottom:0;
+
+  /*Typography*/
+
+  color: #fff;
+  font-family: 'Fredoka One', sans-serif;
+  text-shadow: 4px 4px 4px #2B705D;
+}
+
+h1 {
+
+  /*Layout*/
+
+  margin-top:0;
+
+  /*Typography*/
+
+  font-size: 3em;
+
+}
+
+h2 {
+
+  /*Layout*/
+
+  margin-top:.125em;
+
+  /*Typography*/
+
+  font-size: 2em;
+
+}
+
+.license {
+  /*Layout*/ 
+
+  bottom: 1em;
+  position: absolute;
+
+  /*Typography*/
+
+  color: #fff;
+  font-family: monospace;
+  font-size: .9em;
+  text-shadow: 2px 2px 2px #2B705D;
+}
+
+.license a {
+
+  /*Typography*/
+
+  color: #fff;
+
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
